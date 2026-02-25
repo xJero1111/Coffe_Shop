@@ -34,4 +34,16 @@ a {
 .site-header .container{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header {
+    padding: 1rem 0rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+    font-size: 2.5rem;
 }
